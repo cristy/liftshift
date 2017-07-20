@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  dotnetappsqldb:
+    image: dotnetappsqldb
+    build:
+      context: .\DotNetAppSqlDb
+      dockerfile: Dockerfile
