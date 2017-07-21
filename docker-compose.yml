@@ -6,3 +6,5 @@ services:
     build:
       context: .\DotNetAppSqlDb
       dockerfile: Dockerfile
+    ports:
+      - "80:80"
